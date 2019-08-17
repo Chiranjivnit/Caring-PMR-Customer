@@ -1,0 +1,130 @@
+.remainder-cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.scrollCards {
+    display: inline-block !important;
+
+}
+
+.remainder-cards .ant-input {
+    border: none;
+    background: transparent;
+}
+.ant-col {
+    padding:0px 15px;
+}   
+
+.cards {
+    border-bottom: 5px solid #007063 !important;
+    border-radius: 4px !important;
+    background-color:#f2f2f2;
+    box-shadow: 0 0 9px 4px rgba(0, 112, 99, 0.17);
+    flex: 0 0 auto;
+}
+.date-picker {
+    border: none;
+    width: 91px;
+}
+.card-title {
+    min-height: 70px !important;
+}
+.bold-text  {
+    font-weight: 600;
+    color: #4a4a4a;
+    font-size: 20px;
+}
+.small-text {
+    font-size: 14px;
+    color: #000000;
+}
+.cardFooterContent1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin: 32px 0px -9px;
+}
+.view-all-remainder {
+    font-size: 16px;
+    font-weight: 600;
+    color: #007063;
+}
+.view-all-remainder:hover {
+    color: #007063 !important;
+}
+.dont-miss-these {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 50px;
+}
+.message-icon {
+    color: #94c8c2;
+}
+.datePicker {
+    border-bottom: solid 1px #e1e1e1;
+    border-radius: 4px;
+    color: #696969;
+    font-size: 16px;
+    font-weight: 600;
+}
+.messageSection {
+    margin-top: 10px;
+}
+.scrollView{
+    width: 90%;
+    white-space: nowrap;
+    overflow: auto;
+}
+.noData{
+    font-size: 30px;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    margin: 75px;
+}
+@media (min-width: 1300px){
+    .container-for-symptomCard {
+       max-width: 1140px !important;
+    }
+    }
+    
+@media (min-width: 992px){
+    .container-for-symptomCard  {
+       max-width: 960px !important;
+    }
+    }
+@media (min-width: 768px){
+    .container-for-symptomCard r {
+       max-width: 720px !important;
+    }
+   
+    }
+@media (min-width: 576px){
+    .container-for-symptomCard  {
+       max-width: 540px !important;
+    }
+    
+    }
+    .container-for-symptomCard  {
+       width: 100%;
+       padding-right: 15px;
+       padding-left: 15px;
+       margin-right: auto;
+       margin-left: auto;
+       background-color: #efefef;
+       max-width: 1140px !important;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .text-for-small-screen {
+            text-align: center !important;
+        }
+        .noData{
+            font-size: 21px;
+            margin: 21px;
+        }
+    }
+

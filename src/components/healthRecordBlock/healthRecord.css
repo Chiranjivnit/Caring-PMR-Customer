@@ -1,0 +1,26 @@
+.healthRec{
+    width: 50%;
+      height: 40px;
+      background: transparent !important;
+      border: 2px solid white;
+      padding: 5px;
+      margin: 14px;
+  }
+  .healthRecd1{
+    width: 30%;
+    height: 40px;
+    background: transparent !important;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 14px 0px 14px 14px !important;
+    border-right: 0px;
+  }
+  .healthRecd2{
+    width: 30%;
+    height: 40px;
+    background: transparent !important;
+    border: 2px solid white;
+    padding: 5px;
+    border-left: 1px dotted white;
+    margin: 14px 6px 14px 0px;
+  }

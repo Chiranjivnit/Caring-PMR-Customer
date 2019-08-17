@@ -1,0 +1,96 @@
+.remindMeButtonsSection {
+    margin-top: 20px; 
+}
+
+.remindMeButtons {
+    border-radius: 6px;
+    border: solid 1px #007066;
+    font-weight: 600;
+    color: #007066;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.remindMeButtons:hover {
+    border: solid 1px #007066;
+    color: #007066;
+}
+.remindMeButtons:focus {
+    border: solid 1px #007066;
+    color: #007066;
+}
+
+.cards {
+    border-bottom: 5px solid #007063 !important;
+    border-radius: 4px !important;
+    background-color:#f2f2f2;
+    box-shadow: 0 0 9px 4px rgba(0, 112, 99, 0.17);
+}
+.card-title {
+    min-height: 70px !important;
+}
+.bold-text  {
+    font-weight: 600;
+    color: #4a4a4a;
+    font-size: 20px;
+}
+
+.moreRemainderCards {
+    margin-bottom: 40px;
+}
+.moreRemainderCards .ant-input {
+    border: none;
+    background: transparent;
+}
+.datePicker {
+    border-bottom: solid 1px #e1e1e1;
+    border-radius: 4px;
+    color: #696969;
+    font-size: 16px;
+    font-weight: 600;
+}
+.messageSection {
+    margin-top: 10px;
+}
+.cardSections {
+    margin-top: 30px;
+}
+.label {
+    font-size: 16px;
+    color: #000000;
+    margin:5px 0px 0px 0px;
+}
+.gutter-box {
+    padding: 5px 0;
+  }
+
+@media (min-width: 1300px){
+    .container {
+       max-width: 1140px !important;
+    }
+    }
+    
+@media (min-width: 992px){
+    .container {
+       max-width: 960px !important;
+    }
+    }
+@media (min-width: 768px){
+    .container {
+       max-width: 720px !important;
+    }
+    }
+@media (min-width: 576px){
+    .container {
+       max-width: 540px !important;
+    }
+    }
+    .container {
+       width: 100%;
+       padding-right: 15px;
+       padding-left: 15px;
+       margin-right: auto;
+       margin-left: auto;
+       background-color: white;
+       max-width: 1140px !important;
+    }

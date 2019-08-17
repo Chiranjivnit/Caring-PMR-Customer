@@ -1,0 +1,11 @@
+.wholeCard .ant-table-pagination.ant-pagination{
+    display: block!important;
+  }
+
+  .ant-pagination {
+    display: block!important;
+  }
+
+  .warningDate{
+    color: red;
+  }

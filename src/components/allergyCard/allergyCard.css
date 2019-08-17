@@ -1,0 +1,82 @@
+.allergyCards {
+    margin-top: 40px;
+    background-color: #d0f0ed;
+}
+.allergyTopText {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+}
+.subText {
+    font-weight: normal;
+}
+.allergyCards .ant-card-body {
+    padding: 0px;
+}
+
+.allergyCardTopContent {
+    background: #ffffff;
+    height: 84px;
+}
+.severity {
+    color: #000000;
+    font-size: 20px;
+}
+.allergyCardMargin {
+    margin-top: 20px;
+}
+.percentage {
+     color: red;
+     text-align: right;
+     font-size: 22px;
+}
+.text-grey {
+    color: #9b9a9b;
+    font-size: 14px;
+}
+.subTextTiltes {
+    font-size: 16px;
+    color: #020202;
+}
+.outComeText {
+    color: #f47b38;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cardsMargin {
+    margin: 15px 0px;
+}
+
+@media (min-width: 1300px){
+    .container {
+       max-width: 1140px !important;
+    }
+    }
+    
+@media (min-width: 992px){
+    .container {
+       max-width: 960px !important;
+    }
+    }
+@media (min-width: 768px){
+    .container {
+       max-width: 720px !important;
+    }
+    }
+@media (min-width: 576px){
+    .container {
+       max-width: 540px !important;
+    }
+    }
+    .container {
+       width: 100%;
+       padding-right: 15px;
+       padding-left: 15px;
+       margin-right: auto;
+       margin-left: auto;
+       background-color: white;
+       max-width: 1140px !important;
+    }
+
+

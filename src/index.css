@@ -1,0 +1,919 @@
+.p0{
+  padding: 0px!important;
+}
+.Container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  margin-top: 30px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navPharmacy{
+  color: #fff !important;
+}
+.text-center {
+  text-align: center;
+}
+.healthContainer{
+  margin: 30px !important;
+}
+.profileDetails .ant-card {
+  /* margin: 30px 0 30px 30px!important; */
+  width: auto;
+  height: auto;
+  background-color: #eaf4f3!important;
+}
+/* .profileDetails .ant-avatar {
+  width: 140px;
+  height: 140px;
+} */
+.profileDetails .avatarImg {
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  position: relative;
+  margin: 0 auto;
+}
+.profileDetails .editIcon {
+    top: 9px;
+    background-color: #01ae93;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+.profileDetails .anticon svg {
+  width: 15px;
+  height: 15px;
+  color: #ffffff;
+}
+.profileDetails .ant-card-meta-detail{
+  text-align: center;
+}
+.profileDetails .ant-card-meta-title {
+font-size: 26px;
+color: #313c30!important;
+margin: 0px!important;
+}
+.profileDetails .ant-card-meta-description {
+font-size: 18px;
+font-weight: bold;
+color: #313c30;
+}
+.profileDetails .rowOne {
+  margin-top: 35px;
+}
+.profileDetails label{
+  font-size: 18px;
+  color: #9b9b9b;
+  word-break: break-all;
+}
+.profileDetails p{
+  font-size: 16px;
+  color: #000000;
+  word-break: break-all;
+}
+
+
+
+/* health-record-summary */
+  /* health-record-summary */
+
+.HealthRecordSummary .ant-card {
+  /* margin: 30px 30px 030px 0!important; */
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(315deg, #01ae93, #03c1ab);
+}
+.HealthRecordSummary h1{
+  font-size: 24px;
+  color: #000000;
+}
+.HealthRecordSummary .round{
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+ border-radius: 50%;
+ background-color: #4f4f4f;
+ display: inline-block;
+}
+.HealthRecordSummary .round1{
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+ border-radius: 50%;
+ background-color: #f65656;
+ display: inline-block;
+}
+.HealthRecordSummary h5{
+  font-size: 14px;
+  color: #ffffff;
+}
+.HealthRecordSummary .viewHistory{
+  border: 0px!important;
+  font-size: 14px!important;
+  margin: 0px!important;
+}
+.HealthRecordSummary .viewHistory:hover,.HealthRecordSummary .viewHistory:focus{
+  background: transparent!important;
+  border-radius: 0px!important;
+  color: #fff!important;
+}
+.HealthRecordSummary .ant-btn {
+  background: transparent;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px #ffffff;
+  /* margin: 0 20px 0 32px; */
+  /* width: 200px; */
+}
+.HealthRecordSummary .ant-btn:not([disabled]):hover,.HealthRecordSummary .ant-btn:not([disabled]):focus{
+  background: #fff;
+  border-radius: 0px;
+  color: #3fb298;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px #ffffff;
+  /* margin: 0 20px 0 32px; */
+  /* width: 200px; */
+}
+.HealthRecordSummary .ant-btn:not([disabled]):active{
+  background: #fff;
+    border-radius: 0px;
+    color: #3fb298;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px #ffffff;
+  /* margin: 0 20px 0 32px; */
+  /* width: 200px; */
+}
+.HealthRecordSummary .ant-card {
+    /* margin: 30px 30px 30px 0px!important; */
+  }
+  .HealthRecordSummary .healthButton{
+    margin: 15px 5px;
+    padding: 0px 25px 0 25px;
+
+  }
+  .HealthRecordSummary .healthRow1{
+    margin-bottom: 10px;
+  }
+  .HealthRecordSummary .lipid{
+    font-size: 17px;
+    color: #000000;
+    margin: 0px;
+  }
+ .lipidProfile{
+  margin: 20px 0px 0px 15px;
+  }
+  .lipidProfile .lipHeading{
+    margin: 0 0 0 15px;
+  }
+  .lipidProfile span{
+    font-size: 11.9px;
+    color: #007066;
+    padding: 5px;
+  }
+  
+  .lipidProfile h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: #007066;
+    margin: 0px;
+  }
+  .lipidProfile strong{
+    padding: 0px!important;
+  }
+  .lipidProfile .lipidRow1{
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  /* healthrecordblock */
+
+  .HealthRecordSummary strong{
+    font-size: 30px;
+    padding: 0px 10px 0px 15px;
+  }
+    .HealthRecordSummary .ant-menu-item {
+      float: left;
+      margin-top: 5px;
+      width: 23px;
+      height: 30px;
+      padding: 0px 0 0 0px;
+  }
+  .HealthRecordSummary .healthContent{
+    font-size: 11.9px;
+    color: #007066;
+    margin: 4px 0 0 0;
+  }
+  .connections{
+    padding: 40px;
+  }
+  .connections .ConnectionsTitle{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin: 50px 0 0 0;
+  }
+  .connections p{
+    font-size: 16px;
+  color: #000000;
+  }
+  .connections .swapIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #50e3c2;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 5px;
+    color: #fff;
+    position: relative;
+    left: 35px;
+    bottom: 35px;
+}
+  .connections .ConnectionCards{
+    /* text-align: center; */
+    width: auto;
+    height: auto;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 9px 4px rgba(0, 112, 99, 0.17);
+    /* padding-left: 6px; */
+  }
+  .ConnectionCards Image{
+    text-align: center;
+  }
+  .ConnectionCards label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #504e4e;
+    text-align: center;
+  }
+  .ConnectionCards p{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+  }
+  .ConnectionCards .connectionsName{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .ConnectionCards .gender{
+    padding: 0px!important;
+    text-align: left!important;
+  }
+  .ConnectionCards .gender p{
+    text-align: left;
+   
+  }
+  .ConnectionCards .age{
+    padding: 0px!important;
+    text-align: right!important;
+  }  
+  .ConnectionCards .age p{
+    text-align: right!important;
+    margin: 0px;
+  } 
+  .ConnectionCards .avatarImg{
+    text-align: center;
+  width: 140px;
+  height: 140px;
+  position: relative;
+  margin: 0 auto;
+  }
+  .banner{
+    background: #01ae93;
+  }
+  .banner .col1{
+    padding: 90px 80px 80px 80px!important;
+  }
+  .banner .Image{
+    float: right;
+    padding: 10px 10px 0px 0px;
+    width: 75%;
+    margin: 60px 0 0 0;
+  }
+  .banner h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    margin:0px;
+  }
+  .banner p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+   
+  }
+.DatePicker{
+   padding: 25px;
+ }
+ .historyView .ant-calendar-picker-input {
+  outline: none;
+  border: 2px solid;
+  height: 46px;
+  color: #d0d0d0;
+}
+.historyView .ant-input:hover{
+  border-color:  #d0d0d0 !important;
+  border-right-width: 1px !important;
+}
+
+.historyView .ant-btn-primary{
+  width: 128px;
+  height: 47px;
+  border-radius: 6px;
+  background-color: #01ae93!important;
+  border-color: #01ae93!important;
+  padding-left: -5px;
+  font-size: 18px;
+  color: #fff;
+  margin: 1px 0 0 30px;
+}
+.historyView .pharmaEntry{
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: #000000;
+  margin: 10px;
+}
+.historyView .patientEntry{
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: #f65656;
+  color: #f65656;
+  margin: 10px 10px 10px 40px;
+
+}
+.historyView tr.ant-table-expanded-row, .historyView tr.ant-table-expanded-row:hover {
+  background: #eaf4f3;
+}
+
+.historyView .ant-table-thead > tr > th {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: #9b9b9b;
+}
+.historyView .ant-table-thead > tr, .historyView .ant-table-tbody > tr {
+  font-size: 16px;
+  color: #000000;
+}
+.historyView .ant-table-pagination.ant-pagination {
+  /* display: none; */
+  color: #3eaf93;
+  margin: 5px 20px;
+}
+.DropContent .ant-col{
+  padding: 0px!important;
+}
+.DropContent label{
+  font-size: 18px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.DropContent p{
+  font-size: 16px;
+  color: #7b7f7f;
+  margin: 10px 0px 0px 0!important;
+}
+.DropContent h4{
+  font-size: 16px;
+  color: #000000;
+
+}
+.pharmacyCard{
+  box-shadow: 0 0 9px 4px rgba(0, 112, 99, 0.17);
+}
+/* .pharmacyCard .ant-card-body{
+  width: auto;
+  height: 70px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.49);
+} */
+
+.pharmacyCard .heading{
+  background-color: #d0f0ed !important;
+  padding: 20px;
+  height: 100px;
+}
+.pharmacyCard .body{
+  background-color:#e7f8f6;
+  padding: 20px;
+}
+.pharmacyCard h5{
+  margin: 0px !important;
+  font-size: 20px;
+  font-weight: bold;
+  color: #313c30 !important;
+}
+.pharmacyCard .ant-card-body {
+  padding: 0px !important;
+}
+/* .pharmacyCard .pharmRow {
+  margin:40px 0 0 0 ;
+} */
+.pharmacyCard .pharmRow label{
+  font-size: 14px;
+  color: #9b9a9b;
+}
+.pharmacyCard .pharmRow p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d2d2d;
+  height: 150px;
+}
+.pharmacyCard label{
+  font-size: 14px;
+  color: #9b9a9b;
+}
+.pharmacyCard p{
+  font-size: 16px;
+  color: #000000;
+}
+.pharmRow .ant-col{
+  padding: 0px!important;
+
+}
+.pharmRow .outcome label{
+  margin: 0 0 0 20px;
+}
+.pharmRow .outcome p{
+  margin: 0 0 0 20px;
+}
+.viewBtn{
+  text-align: center;
+}
+.pharmacyCard .viewReport,.pharmacyCard .viewReport:focus,.pharmacyCard .viewReport:hover{
+   background-color: #01ae93;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.ant-card-bordered {
+  border: 1px solid #e8e8e8;
+  margin-bottom: 30px !important;
+}
+.ant-back-top-content {
+  background-color:#000 !important;
+  display: none;
+}
+.ant-calendar-picker-small .ant-calendar-picker-icon {
+  right: 0px !important;
+}
+.table-responsive {
+  width: 100%;
+  margin-bottom: 15px;
+  overflow-y: hidden;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 1px solid #ddd;
+  min-height: .01%;
+  overflow-x: auto;
+}
+.ant-input:focus {
+  border-color: transparent !important;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.profileDetails .genderIco{
+  font-size: 99px;
+  border: 2px solid #515454;
+  display: block;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding:0px 0px;
+  text-align: center;
+  line-height: 93px;
+  margin-bottom: 10px;
+}
+.profileDetails .profileIcon{
+  text-align: -webkit-center;
+}
+.wholeCard .ant-modal-body{
+  padding: 0px;
+  /* width: 1115px !important; */
+}
+.wholeCard .ant-table-pagination.ant-pagination {
+  display: none;
+}
+.wholeCard .ant-modal-footer{
+  display: none;
+}
+.pharmacy .ant-calendar-picker-input{
+  outline: none;
+  border: 1px solid;
+  height: 46px;
+  color: white;
+  background: transparent;
+  border-radius: 0px;
+}
+.pharmacy .ant-input:hover{
+  border-color:  #fff !important;
+  border-right-width: 1px !important;
+}
+
+.pharmacy .ant-btn-primary{
+  outline: none;
+  border: 1px solid;
+  height: 46px;
+  color: white;
+  background: transparent;
+  
+}
+.pharmacy .ant-btn-primary:hover,.pharmacy .ant-btn-primary:focus{
+  outline: none;
+  border: 1px solid;
+  height: 46px;
+  color: white;
+  background: transparent;
+}
+.pharCard{
+  background-image: linear-gradient(to bottom, #008973, #2bdbc7);
+  padding: 24px;
+}
+.pharCard .title{
+  font-size: 40px;
+  color: #ffffff;
+}
+.pharTable{
+  padding: 30px;
+}
+
+.ant-modal-close-x{
+  font-size: 21px;
+    color: #ffffff;
+    background-color: transparent;
+    border: transparent;
+}
+.pharmacy .anticon svg {
+  color: #fff !important;
+  opacity: 1;
+}
+.pharmacy .ant-calendar-picker-clear{
+background: transparent;
+color: white;
+opacity: 1;
+
+}
+.pharmacy .ant-calendar-range-picker-separator{
+  vertical-align: unset !important;
+  color: #fff !important;
+}
+.pharmacy input::-webkit-input-placeholder { /* Edge */
+  color: #fff !important;
+  opacity: 1;
+
+}
+
+.pharmacy input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff !important;
+  opacity: 1;
+}
+
+.pharmacy input::placeholder {
+  color: #fff !important;
+  opacity: 1;
+}
+#printRecord{
+border: transparent;
+margin: 0px;
+padding-left: 6px;
+padding-top: 0px;
+background: transparent;
+color: #fff;
+font-size: 19px;
+}
+.mdi-printer{
+  color: #fff;
+  font-size: 20px;
+}
+.ConnectionCards .profileIcon{
+  text-align: -webkit-center;
+}
+.ConnectionCards .genderIco{
+  font-size: 99px;
+  border: 2px solid #515454;
+  display: block;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding:0px 0px;
+  text-align: center;
+  line-height: 93px;
+  margin-bottom: 10px;
+}
+.connection-cards{
+  margin-top: 40px !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+}
+.scrollCards{
+  display: inline-block !important;
+
+}
+.connections .noConnection{
+  font-size: 30px !important;
+  font-style: italic !important;
+  margin: auto !important;
+  text-align: center !important;
+  margin: 75px !important;
+}
+.noData{
+  font-size: 30px;
+  font-style: italic;
+  margin: auto;
+  text-align: center;
+  margin: 75px;
+}
+.unit{
+  font-size: 14px !important;
+}
+.HealthRecordSummaryMobile{
+  display: none;
+}
+
+
+@media (min-width:320px) and (max-width: 767px){
+  .ant-back-top {
+    right: 15px !important;
+    bottom: 15px !important;
+}
+.ant-back-top-content {
+  display: block;
+}
+  .profileDetails .ant-card {
+    width: auto; 
+    height: auto;
+  }
+  /* .profileDetails .editIcon {
+    bottom: 145px;
+    left: 165px;
+  } */
+  .healthContainer {
+      margin: 0px!important;
+  }
+  .profile{
+    margin: 0px !important;
+  }
+  .padding0{
+    padding: 0px !important;
+  }
+  
+.profileDetails .ant-card-meta-title {
+  font-size: 20px;
+}
+.profileDetails .ant-card-meta-description {
+  font-size: 14px;
+}
+.profileDetails label {
+  font-size: 12px;
+}
+.profileDetails p {
+    font-size: 12px;
+}
+  .profileDetails .ant-card-body {
+    padding: 15px;
+  }
+  .HealthRecordSummary h1 {
+    font-size: 22px;
+  }
+  .HealthRecordSummary .viewHistory {
+    font-size: 10px!important;
+    color: #3fb298;;
+}
+.HealthRecordSummary h5 {
+  font-size: 10px;
+    margin-top: 4px;
+
+}
+.HealthRecordSummary .healthButton {
+  margin: 0px 0px 15px 5px;
+  padding: 9px;
+  font-size: 10px;
+  color: #3fb298;;
+  border: 1px solid #3fb298;
+  width: 64px;
+}
+.HealthRecordSummary .ant-btn:not([disabled]):hover, .HealthRecordSummary .ant-btn:not([disabled]):focus,
+.HealthRecordSummary .ant-btn:not([disabled]):active {
+  margin: 0px 0px 15px 5px;
+  padding: 9px;
+  font-size: 10px;
+  border: solid 1px #3fb298;;
+}
+.HealthRecordSummary .ant-menu-item {
+  margin: 5px;
+  width: 19px;
+  height: 22px;
+}
+.HealthRecordSummary .healthContent {
+  font-size: 9.9px;
+  /* margin: 0px 0 10px 4px; */
+
+}
+.HealthRecordSummary strong {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0 3px 0 0;
+}
+.HealthRecordSummary .HealthSummary{
+  margin: 0px 30px!important;
+}
+.update,.cancel,.update:active,.cancel:active,.update:focus,.cancel:focus{
+  width: auto;
+  /* margin: 0px 5px !important; */
+}
+.lipidProfile,.lipidProfile .lipHeading {
+  margin: 0px;
+}
+.HealthRecordSummary .healthRow1 {
+  margin-bottom:0px;
+}
+.lipidProfile .lipidRow1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.health1{
+  margin: 0 0 15px 0px;
+}
+.HealthRecordSummary .ant-menu-item {
+  margin-top: 0px;
+}
+.healthRec{
+  width: 50%;
+    height: 50px;
+    background: transparent !important;
+    border: 2px solid #3fb298;;
+    padding: 5px;
+    margin: 5px 10px 5px 0px;
+}
+.lipidProfile h3 {
+  font-size: 12px;
+}
+.connections .ConnectionsTitle {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+.connections p {
+  font-size: 16px;
+}
+.connections {
+  padding: 0px;
+}
+.banner p {
+  font-size: 12px;
+}
+.banner h1 {
+  font-size: 24px;
+}
+.banner .col1 {
+  padding: 20px!important;
+}
+.DatePicker {
+  padding: 0px;
+  margin: 15px 0;
+}
+.historyView .ant-calendar-picker-input {
+  height: 37px;
+  border-radius: 0px;
+}
+.historyView .ant-btn-primary {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  margin:10px 0px;
+}
+.historyView .pharmaEntry {
+  font-size: 10px;
+  margin: 5px;
+}
+.historyView .patientEntry {
+  font-size: 10px;
+  margin: 5px;
+}
+.pharmas,.patients{
+  font-size: 10px !important;
+}
+.dont-miss-these {
+  font-size: 21px !important;
+  margin: 0px !important;
+}
+.view-all-remainder {
+  font-size: 12px !important;
+  text-decoration: underline !important;
+}
+.remainder-cards {
+  margin-top: 0px !important;
+}
+.dont-miss{
+  margin:20px 0 !important;
+}
+.remindMeButtons {
+  font-size: 11px!important;
+}
+.DropContent label {
+  font-size: 14px;
+}
+.DropContent p {
+  font-size: 12px;
+}
+.DropContent h4 {
+  font-size: 12px;
+}
+.historyView .ant-table-thead > tr, .historyView .ant-table-tbody > tr {
+  font-size: 14px;
+  color: #000000;
+}
+.noData{
+   font-size: 21px;
+   margin: 21px;
+   }
+   .connections .noConnection {
+    font-size: 21px !important;
+    margin: 21px !important;
+   }
+   .pharCard .title {
+    font-size: 30px;
+   }
+   .pharmacy .ant-calendar-picker-input {
+    height: 35px;
+    margin-bottom: 10px;
+   }
+   .pharmacy .ant-btn-primary {
+    border-radius: 0px;
+    height: 35px;
+   }
+   .pharTable{
+    padding: 15px;
+    overflow-x: scroll;
+  }
+  .HealthRecordSummary{
+display: none;
+  }
+  .HealthRecordSummaryMobile{
+    display: block;
+    margin: 20px 0 0 0;
+  }
+  .HealthRecordSummaryMobile .ant-collapse {
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #ffffff;
+    border: 0px solid #d9d9d9 !important;
+    border-radius: 0px !important;
+  }
+  .HealthRecordSummaryMobile .ant-collapse > .ant-collapse-item {
+    border-bottom: 0px solid #d9d9d9 !important;
+  }
+  .HealthRecordSummaryMobile .ant-collapse-content {
+    border-top: 0px solid #d9d9d9 !important;
+    margin: 0px 0 0 85px;
+}
+.HealthRecordSummaryMobile .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-extra {
+  float: left;
+}
+.HealthRecordSummaryMobile .ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+  /* text-align: center; */
+  font-weight: bold;
+  font-size: 17px;
+}
+.RecordIcon {
+  height: 35px;
+  width: 30px;
+  padding: 0px;
+  margin: -9px 34px;
+}
+/* .HealthRecordSummaryMobile .ant-collapse-content > .ant-collapse-content-box {
+  padding: 0px;
+} */
+.mobileLipids article{
+  margin: 0 15px;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+  padding: 12px 16px 12px 0px !important;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+  right:16px !important;
+}
+} 

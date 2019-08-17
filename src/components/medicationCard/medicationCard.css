@@ -1,0 +1,87 @@
+.filterButton {
+    background-color: #01ae93;
+    color: #ffffff;
+    margin: 20px 0px;
+    width: 120px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.filterButton:hover {
+    background-color: #01ae93;
+    color: #ffffff;
+}
+.filterButton:focus {
+    background-color: #01ae93;
+    color: #ffffff;
+    border: none;
+}
+.medicationCard {
+    border-radius: 4px !important;
+    box-shadow: 0 0 9px 4px rgba(0, 112, 99, 0.17);
+    background-color: #d0f0ed;
+
+}
+.medicationCardTopContent {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313c30;
+    background-color: #ffffff;
+    height: auto !important;
+    padding: 10px;
+}
+.medicationCardContent {
+    font-size: 16px;
+    color: #262626;
+    padding: 15px;
+}
+.dosage {
+    word-wrap: break-word;
+}
+.dosageTimings {
+    font-size: 14px;
+    color: #000000;
+}
+.dosageIcon {
+    color: #007063 !important;
+}
+.cardsMargin {
+    margin-top: 20px;
+}
+
+.medicationCard .ant-card-body {
+    padding: 0px;
+    height: 230px;
+}
+
+@media (min-width: 1300px){
+    .container {
+       max-width: 1140px !important;
+    }
+    }
+    
+@media (min-width: 992px){
+    .container {
+       max-width: 960px !important;
+    }
+    }
+@media (min-width: 768px){
+    .container {
+       max-width: 720px !important;
+    }
+    }
+@media (min-width: 576px){
+    .container {
+       max-width: 540px !important;
+    }
+    }
+    .container {
+       width: 100%;
+       padding-right: 15px;
+       padding-left: 15px;
+       margin-right: auto;
+       margin-left: auto;
+       background-color: white;
+       max-width: 1140px !important;
+    }

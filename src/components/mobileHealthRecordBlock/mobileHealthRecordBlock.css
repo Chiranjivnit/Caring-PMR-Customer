@@ -1,0 +1,58 @@
+@media (min-width:320px) and (max-width: 767px){
+  .padding0{
+    padding: 0px !important;
+  }
+.healthContent{
+    color: #3fb298;
+    margin: 10px 0 0 0px !important;
+}
+strong{
+    font-size: 30px;
+    color: #000000;
+    padding: 0 5px 0 0;
+}
+i{
+    font-size: 9.9px;
+    color: #646464;
+}
+.measure{
+    font-style: italic;
+    font-size: 9.9px;
+    color: #646464;
+}
+
+.limit p{
+margin: 0px;
+font-size: 9.9px;
+color: #3fb298;
+}
+.LimitMeasure{
+  display: -webkit-inline-box;
+}
+.healthRec{
+    width: 50%;
+      height: 40px;
+      background: transparent !important;
+      border: 2px solid#3fb298;;
+      padding: 5px;
+      margin: 5px 10px 5px 0px;
+  }
+  .healthRecd1{
+    width: 30%;
+    height: 40px;
+    background: transparent !important;
+    border: 2px solid #3fb298;;
+    padding: 5px;
+    margin: 10px 0px 10px 10px !important;
+    border-right: 0px;
+  }
+  .healthRecd2{
+    width: 30%;
+    height: 40px;
+    background: transparent !important;
+    border: 2px solid #3fb298;;
+    padding: 5px;
+    border-left: 1px dotted #3fb298;;
+    margin: 10px 6px 10px 0px;
+  }
+}

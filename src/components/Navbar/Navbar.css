@@ -1,0 +1,122 @@
+#components-layout-demo-top .logo {
+    width: 120px;
+    background: #313c30;
+    margin: 16px 24px 16px 0;
+    float: left;
+  }
+  .navbar {
+    background-color: rgb(35, 51, 35) !important;
+    height: 70px;
+  }
+  .text-white {
+      color: #ffffff;
+      font-weight: bold;
+  }
+  .logo {
+    height: 30px;
+    width: 130px;
+    margin-top: 20px;
+  }
+  .navbar .menu-item {
+    border: none !important;
+  }
+
+.navbar .ant-menu-submenu :hover {
+    color: white !important;
+ }
+ 
+/*
+======================= Menu Section goes here ======================*/
+
+ .mainMenu{
+   text-align: right;
+   background-color: #313c30;
+   height: 70px;
+   width: 100%;
+ }
+ .mainMenu li:first-child{
+  text-align: left;
+ }
+ .mainMenu li:nth-child(2){
+  position: absolute;
+  left: 0;
+  text-align: left;
+ }
+ .mainMenu li:nth-child(2) img{
+  width: 42%;
+ }
+
+ .mainMenu .ant-menu-submenu-title:hover{
+  color: #fff !important;
+ }
+
+ .mainMenu.ant-menu-horizontal > .ant-menu-item:hover, 
+ .mainMenu.ant-menu-horizontal > .ant-menu-submenu:hover, 
+ .mainMenu.ant-menu-horizontal > .ant-menu-item-active, 
+ .mainMenu.ant-menu-horizontal > .ant-menu-submenu-active, 
+ .mainMenu.ant-menu-horizontal > .ant-menu-item-open, 
+ .mainMenu.ant-menu-horizontal > .ant-menu-submenu-open, 
+ .mainMenu.ant-menu-horizontal > .ant-menu-item-selected, 
+ .mainMenu.ant-menu-horizontal > .ant-menu-submenu-selected{ 
+  color: #fff !important;
+  border-bottom: none !important;
+  font-weight: bold;
+
+}
+
+.mainMenu.ant-menu-horizontal > .ant-menu-item > a, 
+.mainMenu.ant-menu-horizontal > .ant-menu-item > a:hover {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.mainMenu.ant-menu{
+  color: #fff !important;
+  font-weight: bold;
+}
+.mainMenu.ant-menu-horizontal > .ant-menu-item {
+  border: none !important;
+}
+.mainMenu.ant-menu-horizontal > .ant-menu-item, 
+.mainMenu.ant-menu-horizontal > .ant-menu-submenu{
+  border-bottom: none !important;
+}
+
+.mainMenu .ant-menu-item, .mainMenu .ant-menu-submenu{
+  line-height: 70px;
+}
+.mainMenu.ant-menu-horizontal {
+  border: none;
+}
+.mobileMenu{
+display: none;
+}
+.webMenu{
+  display: block;
+}
+a {
+  color: #fff;
+}
+@media (min-width:320px) and (max-width: 767px){
+
+  .navPharmacy {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.mobileMenu{
+  width: 40%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: block;
+}
+.webMenu{
+  display: none;
+}
+.ant-menu-submenu-popup {
+  width: 100%;
+}
+a {
+  color:  rgba(0, 0, 0, 0.65) !important;
+}
+
+}
